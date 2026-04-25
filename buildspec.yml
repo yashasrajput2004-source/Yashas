@@ -1,13 +1,8 @@
 version: 0.2
-
 phases:
-  install:
-    commands:
-      - echo Installing project
   build:
     commands:
-      - echo Build completed successfully
-
+      - echo "Build successful"
 artifacts:
   files:
-    - '**/*'
+    - README.md
