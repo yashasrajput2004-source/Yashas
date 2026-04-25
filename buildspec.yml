@@ -3,10 +3,10 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo Installing...
+      - echo Installing project
   build:
     commands:
-      - echo Building...
+      - echo Build completed successfully
 
 artifacts:
   files:
